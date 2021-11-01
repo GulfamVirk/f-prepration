@@ -1,0 +1,157 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Courier New', Courier, monospace, sans-serif;
+}
+.header-section{
+  display: flex;
+  justify-content: space-between;
+
+}
+.menu-list{
+ display: flex;
+}
+.items{
+  list-style: none;
+  padding: 15px;
+}
+.items a{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: .5ch;
+  color: grey;
+  font-family: sans-serif;
+}
+.items a:hover{
+  color: black;
+}
+.logo-sec p{
+  letter-spacing: .5ch;
+  padding: 10px;
+  font-weight: bold;
+  color: grey;
+  font-family: sans-serif;
+ 
+}
+.logo-sec a {
+  text-decoration: none;
+}
+.hero-section{
+  background: url(../img/hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+}
+.Text-area{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}
+.hero-heading {
+  font-size: 60px;
+  width: 50%;
+  padding: 30px;
+  
+   /* position: absolute;
+  top: 25%;
+  left: 5%; */
+  
+}
+.hero-para{
+  /* position: absolute;
+  top: 45%;
+  left: 5%; */
+  width: 50%;
+  padding: 30px;
+  color: grey;
+  font-size: 30px;
+}
+.btn-1{
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+  padding: 12px 35px;
+  /* position: absolute;
+  top: 60%;
+  left: 5%; */
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: .5ch;
+  color: grey;
+  padding: 10px;
+}
+.btn-1:hover{
+  color: black;
+}
+.services-section{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(230, 222, 230);
+  height: 65vh;
+}
+.img-section img{
+  width: 500px;
+}
+.text-section{
+  width: max-content;
+  padding: 50px;
+  width: 50%;
+}
+.text-section p{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.process-section{
+  text-align: center;
+  margin: 5% 10% 5% 10%;
+}
+.process-section h1{
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+.btn-3{
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+  padding: 12px 35px;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: .5ch;
+  margin-top: 50px;
+  background-color: plum;
+  padding: 10px;
+}
+.portfolio-section{
+  display: flex;
+  background-color: rgb(121, 110, 110);
+}
+.portfolio-img img{
+    width: 500px;
+}
+.portfolio-heading {
+  padding: 100px 50px ;
+}
+.portfolio-heading h1{
+  font-size: 60px;
+  color: white;
+  padding-bottom: 30px;
+}
+.btn-4{
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+  padding: 12px 35px;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: .5ch;
+  color: grey;
+}

@@ -9,7 +9,7 @@ body{
 .header-section{
   display: flex;
   justify-content: space-between;
-
+  min-height: 60px;
 }
 .menu-list{
  display: flex;
@@ -33,30 +33,33 @@ body{
   letter-spacing: .5ch;
   padding: 10px;
   font-weight: bold;
-  color: grey;
+  color: black;
+  font-weight: 700;
   font-family: sans-serif;
  
 }
 .logo-sec a {
   text-decoration: none;
+  color: black;
 }
 .hero-section{
   background: url(../img/hero.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 80vh;
+  height: 90vh;
 }
 .Text-area{
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 100px;
+  
 }
 .hero-heading {
-  font-size: 60px;
-  width: 50%;
+  font-size: 50px;
   padding: 30px;
+  color: darkcyan;
+  margin: 200px 50px 0 50px;
   
    /* position: absolute;
   top: 25%;
@@ -67,25 +70,24 @@ body{
   /* position: absolute;
   top: 45%;
   left: 5%; */
-  width: 50%;
-  padding: 30px;
   color: grey;
   font-size: 30px;
+  margin: 0 50px 0 50px;
 }
 .btn-1{
   border-radius: 2px;
   border: none;
   cursor: pointer;
-  font-size: 0.9rem;
-  padding: 12px 35px;
   /* position: absolute;
   top: 60%;
   left: 5%; */
   font-size: 15px;
   text-transform: uppercase;
   letter-spacing: .5ch;
-  color: grey;
-  padding: 10px;
+  color: black;
+  font-weight: 700;
+  padding: 15px;
+  margin-top: 30px;
 }
 .btn-1:hover{
   color: black;
@@ -94,23 +96,20 @@ body{
   display: flex;
   justify-content: space-between;
   background-color: rgb(230, 222, 230);
-  height: 65vh;
+  height: 70vh;
 }
 .img-section img{
   width: 500px;
 }
 .text-section{
-  width: max-content;
-  padding: 50px;
-  width: 50%;
+   margin: 100px; 
 }
-.text-section p{
-  padding-top: 30px;
-  padding-bottom: 30px;
+.text-section h1{
+  margin-bottom: 20px;
 }
 .process-section{
   text-align: center;
-  margin: 5% 10% 5% 10%;
+  padding: 100px;
 }
 .process-section h1{
   font-size: 60px;
@@ -120,9 +119,7 @@ body{
   border-radius: 2px;
   border: none;
   cursor: pointer;
-  font-size: 0.9rem;
-  padding: 12px 35px;
-  font-size: 15px;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: .5ch;
   margin-top: 50px;
@@ -137,12 +134,11 @@ body{
     width: 500px;
 }
 .portfolio-heading {
-  padding: 100px 50px ;
+  margin: 90px;
 }
 .portfolio-heading h1{
-  font-size: 60px;
+  font-size: 36px;
   color: white;
-  padding-bottom: 30px;
 }
 .btn-4{
   border-radius: 2px;
@@ -153,5 +149,7 @@ body{
   font-size: 15px;
   text-transform: uppercase;
   letter-spacing: .5ch;
-  color: grey;
+  color: black;
+  font-weight: 700;
+  margin-top: 15px;
 }

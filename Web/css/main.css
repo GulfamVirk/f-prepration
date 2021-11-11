@@ -43,7 +43,7 @@ body{
   color: black;
 }
 .hero-section{
-  background: url(../img/hero.jpg);
+  background: linear-gradient( rgba(0, 0, 0, 0.479),rgba(0, 0, 0, 0.479), rgba(0, 0, 0.6)), url(../img/hero.jpg) ;
   background-size: cover;
   background-repeat: no-repeat;
   height: 90vh;
@@ -58,7 +58,7 @@ body{
 .hero-heading {
   font-size: 50px;
   padding: 30px;
-  color: darkcyan;
+  color: black;
   margin: 200px 50px 0 50px;
   
    /* position: absolute;
@@ -70,7 +70,7 @@ body{
   /* position: absolute;
   top: 45%;
   left: 5%; */
-  color: grey;
+  color: darkgrey;
   font-size: 30px;
   margin: 0 50px 0 50px;
 }
